@@ -10,7 +10,8 @@ public class MainClass {
 		Proprieta proprieta1 = new Proprieta("cottura", "20");
 		proprietaProdotto.add(proprie);
 		proprietaProdotto.add(proprieta1);
-		Prodotto prodotto = new Prodotto("barilla", "pasta", 5, "pasta integrale", proprietaProdotto, 5);
+		Prodotto prodotto = new Prodotto("barilla", "pasta", 15, "pasta integrale", proprietaProdotto, 5);
+		
 	}
 
 }
