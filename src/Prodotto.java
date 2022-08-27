@@ -9,13 +9,13 @@ public class Prodotto {
 	private List<Proprieta> proprieta = new ArrayList<>();
 	private int numeroPunti;
 
-	public Prodotto(String marca, String modello, double prezzo, String descrizione, List<Proprieta> proprieta,
+	public Prodotto(String marca, String modello, double prezzo, String desc, List<Proprieta> proprieta,
 			int numeroPunti) {
 		super();
 		this.marca = marca;
 		this.modello = modello;
 		this.prezzo = prezzo;
-		this.descrizione = descrizione;
+		this.descrizione = desc;
 		this.proprieta = proprieta;
 		this.numeroPunti = numeroPunti;
 	}
