@@ -6,7 +6,7 @@ public class Prodotto {
 	private String modello;
 	private double prezzo;
 	private String descrizione;
-	private List<Proprieta> proprieta = new ArrayList<>();
+	private List<Proprieta> prop = new ArrayList<>();
 	private int numeroPunti;
 
 	public Prodotto(String marca, String mod, double pre, String desc, List<Proprieta> proprieta,
@@ -16,12 +16,12 @@ public class Prodotto {
 		this.modello = mod;
 		this.prezzo = pre;
 		this.descrizione = desc;
-		this.proprieta = proprieta;
+		this.prop = prop;
 		this.numeroPunti = numeroPunti;
 	}
 
 	public List<Proprieta> getProprieta() {
-		return proprieta;
+		return prop;
 	}
 
 	public void setProprieta(List<Proprieta> proprieta) {
@@ -39,7 +39,7 @@ public class Prodotto {
 	@Override
 	public String toString() {
 		return "Prodotto [marca=" + marca + ", modello=" + modello + ", prezzo=" + prezzo + ", descrizione="
-				+ descrizione + ", proprieta=" + proprieta + ", numeroPunti=" + numeroPunti + "]";
+				+ descrizione + ", proprieta=" + prop + ", numeroPunti=" + numeroPunti + "]";
 	}
 
 	public String getMarca() {
